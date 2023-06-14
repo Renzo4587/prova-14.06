@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+html, body{
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    text-rendering: optimizeLegibility;
+
+   
+}
+
+/*Padronização*/
+
+
+html,body{
+    height: 100%;
+}
+div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    
+    flex-direction: column;
+    border-radius: 2rem;
+    
+}
+.tudo{
+    height: 100%;
+    flex-direction: row;
+    width: 100%;
+}
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
+#lado-direito{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.quadrado{
+    
+}
+img{
+    width: 18rem;
+    margin-bottom: 2rem;
+}
+input{
+    margin: 0.5rem;
+    width: 25rem;
+    height: 3.3rem;
+    border: none;
+    padding: 0.2rem;
+}
+
+a{
+    font-size: 2rem;
+}
+button{
+    border: none;
+    width: 25.4rem;
+    height: 2.6rem;
+    background-color: rgb(240, 73, 73);
+    color:black
+}
+
+#remember{
+    font-size: 10rem;
+}
+
+ul{
+    list-style: none;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+}
